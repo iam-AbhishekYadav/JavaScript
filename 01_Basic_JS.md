@@ -1,8 +1,8 @@
-## # What is JavaScript ?
+# # What is JavaScript ?
 
 JavaScript is an object oreiented , general purpose and high level programming language used in wesite's frontend , banckend and software application.
 
-## # Variables
+# # Variables
  The name of memory location that we use to store data.
  
 ![Variable in JS 2](https://github.com/user-attachments/assets/c2a0c0a1-e976-4583-ac15-f6ed5243f71d)
@@ -17,11 +17,11 @@ There are 3 types of Variables.
 >  [!WARNING]
 > Prefer not to use var because of issue in block scope and functional scope
 
-## # Data Type
+# # Data Type
 
 It specifies the type of data that the variable can store.
 
-### Types of Data Type
+## Types of Data Type
 
 Data types are  divided into two categories.
 
