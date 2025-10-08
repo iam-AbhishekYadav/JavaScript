@@ -1,4 +1,7 @@
-## # String
+# # String
+
+-  A sequence of characters, typically used to represent text
+-  String is a primitive data type
 
 **Declaring of String**
 
@@ -27,7 +30,7 @@ console.log(name.__proto__);     // Node ----> Empty object = {}
                                  // Browser par sari properts and Methods deta hai
 ```
 
-**Properties and Methods of String** 
+## Properties and Methods of String*
 
 ``` js
 let userName = "Abhishek";
@@ -50,7 +53,10 @@ console.log(userName.indexOf("b"));         // Returns the position of the first
 > console.log(name);        // Sachin Yadav
 > ```
 
-## # Numbers
+# # Numbers
+
+- It represent numeric values.
+- Number is a primitive data type
 
 **Declaring of Numbers** &nbsp; --> `2 Ways to declare Numbers in JS.`  
 
@@ -67,7 +73,7 @@ const balance = new Number(100)
 console.log(balance)        // node [Number: 400]  // browser Number {400} [[Prototype]]: Number [[PrimitiveValue]]: 400
 ```
 
-**Methods in Numbers**
+## Methods in Numbers
 
 ``` js
 const num = 112307.856;
@@ -80,7 +86,7 @@ console.log(num.toString().length);             // 10
 console.log(num.valueOf(2));                    // 112307.856
 ```
 
-**Checking if values are finite, integers, or NaN**
+## Checking if values are finite, integers, or NaN
 
 ``` js
 const num = 112307.856;
