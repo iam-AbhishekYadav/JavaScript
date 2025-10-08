@@ -7,7 +7,7 @@ JavaScript is an object oreiented , general purpose and high level programming l
  
 ![Variable in JS 2](https://github.com/user-attachments/assets/c2a0c0a1-e976-4583-ac15-f6ed5243f71d)
 
-### Types of Variables
+## Types of Variables
 
 There are 3 types of Variables.
 
@@ -32,7 +32,7 @@ Data types are  divided into two categories.
 - Number --> range (2<sup>53</sup>)
 - Bigint --> `const num = 123456789n`
 - Boolean --> true/false
-- String --> " "
+- String --> " " &nbsp;or&nbsp; ' '
 - Null --> standalone value &nbsp; &nbsp;`**typeof -->object**`
 - Undefined --> A variable that has not been assigned a value is undefined.&nbsp; &nbsp; ` **typeof --> undefined**`
 - Symbol --> unique
