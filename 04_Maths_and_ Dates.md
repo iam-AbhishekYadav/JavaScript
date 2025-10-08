@@ -1,4 +1,4 @@
-## # Maths
+# # Maths
 
 - It is used to perform mathematical operations on numbers.
 - It is Object.
@@ -28,7 +28,7 @@
 > Math.floor(Math.random()*(max-min+1))+min       // return random number between 10 to 20
 > ```
 
-## # Dates
+# # Dates
 
 - It is Object in JavaScript.  
 - Month in JavaScript starts with Zero (0).
