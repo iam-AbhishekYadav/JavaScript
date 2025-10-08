@@ -1,4 +1,4 @@
-## # Arrays
+# # Arrays
 
 - Array is a data stucture in which we storing a collection of multiple items under a single variable name.
 - JS Arrays are resizable and can contain a mix of different data types.
@@ -24,7 +24,7 @@ const mynewArray = new Array("Abhi" , 1 , null , true , undefined) ;
 console.log(mynewArray);                                   // Output : [ 'Abhi', 1, null, true, undefined ]
 ```
 
-### Properties and Methods of Array
+## Properties and Methods of Array
 
 **(i) `No. of element present in Array`**
 
@@ -156,9 +156,9 @@ console.log(convertedArray);                                     // Output : Abh
 console.log(myArray);                                            // Output : ["Abhi","Siddhu","Raj","Sagar","Alok","Addi"]
 ```
 
-### Array Advance Concepts
+## Array Advance Concepts
 
-#### Merging of Two Arrays
+### Merging of Two Arrays
 
 --> 4 Ways/Methods to Merging two Arrays.
 
@@ -216,14 +216,14 @@ const real_another_array = another_array.flat(Infinity)
 console.log(real_another_array);             // Output :  [ 1, 2, 3, 4, 5, 6, 7, 6, 7, 4, 5 ]
 ```
 
-### When data is required in array 
+## When data is required in array 
 
 ``` js
 console.log(Array.isArray("Hitesh"))          // Output : false
 console.log(Array.from("Hitesh"))             // Output : [ 'S', 'a', 'c', 'h', 'i', 'n' ]
 console.log(Array.from({name: "hitesh"}))     // interesting // Output : [ ]
 ```
-### Converting Multiple Variables into Array
+## Converting Multiple Variables into Array
 
 ``` js
 let score1 = 100
