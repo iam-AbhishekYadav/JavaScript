@@ -61,7 +61,7 @@ console.log(obj3);                     // Output :  { name: 'Scahin', stidentID:
 
 ## Properties and Method of Objects
 
-**(i) `Changing ang Freezing of value/Key`**
+**(i) `Changing and Freezing of value/Key`**
 
 ``` js
 let obj={
