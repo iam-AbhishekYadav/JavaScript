@@ -94,6 +94,20 @@ handleObject({                        // Output 2 : Username is Sachin and price
 })
 ```
 
+## How to pass Array in Function ??
+
+``` js
+const myNewArray = [200, 400, 100, 600]
+
+function returnSecondValue(myNewArray) {
+    return myNewArray[1]
+}
+
+console.log(returnSecondValue(myNewArray));                             // Output 1 : 400
+
+console.log(returnSecondValue([200, 400, 100, 600]));                   // Output 2 : 400
+```
+
 ## Function Expression/Hoisting
 
 - Functions can be called before they are declared.
