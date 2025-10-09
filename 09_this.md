@@ -43,7 +43,7 @@ jsuser.login()                      // Output : Sachin just login
                                     //                this: undefined
                                     //              }
 
-jsuser.th                           // Output : {} --> Empty object
+jsuser.this                         // Output : {} --> Empty object
 
 
 
