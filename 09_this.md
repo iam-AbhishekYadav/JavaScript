@@ -13,7 +13,7 @@
 
 
 ``` js
-let jsuser = {
+let jsuser ={
     userName : "Sachin",
     emailId : "mail4sachinyadav@gmail.com",
 
@@ -21,19 +21,37 @@ let jsuser = {
         console.log(`${this.userName} just login`);    // Output : Sachin just login
         console.log(this);
     },
-    th : console.log(this) ,
+    this : console.log(this) ,
     
 }
 
 
-// jsuser.login()                     // Output : Sachin just login 
-                                      //          { userName: 'Sachin', emailId: 'mail4sachinyadav@gmail.com', login: [Function: login]}
+//jsuser.login()                      // Output : Sachin just login 
+                                    //              {
+                                    //                userName: 'Sachin',
+                                    //                emailId: 'mail4sachinyadav@gmail.com',
+                                    //                login: [Function: login],
+                                    //                this: undefined
+                                    //              }
 
-jsuser.userName = "Abhishek"
-// jsuser.login()                   // Output :  Abhishek just login 
-                                    //           { userName: 'Abhishek', emailId: 'mail4sachinyadav@gmail.com', login: [Function: login]}
+//jsuser.userName = "Abhishek"
+//jsuser.login()                      // Output : Sachin just login 
+                                    //              {
+                                    //                userName: 'Abhishek',
+                                    //                emailId: 'mail4sachinyadav@gmail.com',
+                                    //                login: [Function: login],
+                                    //                this: undefined
+                                    //              }
 
 jsuser.th                           // Output : {} --> Empty object
+
+
+
+
+
+
+
+
 ```
 
 ## This in Classical and Arrow Function
