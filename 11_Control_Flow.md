@@ -12,3 +12,22 @@
 |                      |                         |           execute code               |             code        |
 |                      |                         |    }                                 |             break;      |
 |                      |                         |                                      |     }                   |
+
+
+
+
+```mermaid
+graph TD
+    A[JavaScript Control Statements] --> B[Conditional Control Statements]
+    A --> C[break statement]
+    A --> D[continue statement]
+    A --> E[Looping/Iterative Control Statements]
+
+    B --> F[If - Else Statements]
+    B --> G[Switch Case Statements]
+
+    E --> H[For Loop]
+    E --> I[While Loop]
+    E --> J[doWhile Loop]
+    E --> K[for...in Loop]
+```
