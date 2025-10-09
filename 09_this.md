@@ -26,7 +26,7 @@ let jsuser ={
 }
 
 
-//jsuser.login()                      // Output : Sachin just login 
+jsuser.login()                      // Output : Sachin just login 
                                     //              {
                                     //                userName: 'Sachin',
                                     //                emailId: 'mail4sachinyadav@gmail.com',
@@ -34,8 +34,8 @@ let jsuser ={
                                     //                this: undefined
                                     //              }
 
-//jsuser.userName = "Abhishek"
-//jsuser.login()                      // Output : Sachin just login 
+jsuser.userName = "Abhishek"
+jsuser.login()                      // Output : Sachin just login 
                                     //              {
                                     //                userName: 'Abhishek',
                                     //                emailId: 'mail4sachinyadav@gmail.com',
