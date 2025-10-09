@@ -54,6 +54,7 @@ console.log("username :" ,username);           // Output : username : Abhishek
 - It is prefixed with three dots (...).
 - It return Array.
 
+### Example - 1
 ``` js
 function cartPrice(...itemPrice){
     return itemPrice
@@ -61,6 +62,16 @@ function cartPrice(...itemPrice){
 
 let finalCartprice = cartPrice(200,700,500,600);
 console.log(finalCartprice);                            // Output : [ 200, 700, 500, 600 ]
+```
+### Example - 2
+
+``` js
+function cartPrice(val1, val2, ...itemPrice){
+    return itemPrice
+}
+
+let finalCartprice = cartPrice(200,700,500,600);
+console.log(finalCartprice);                             // Output : [ 500, 600 ]  ---> 200 and 700 stored in val1 and val2
 ```
 
 ## How to pass Object in Function ??
