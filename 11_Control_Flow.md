@@ -86,6 +86,9 @@ while (i < 3) {
 > &nbsp; &nbsp; &nbsp; &nbsp;  // Code to execute  
 > } while (condition);
 
+### Flow Chart :
+<img width="500" height="500" src="https://github.com/user-attachments/assets/b1e9dd1e-d2ec-4abb-b30a-5d31c6710b61" />
+
 
 ### Example :
 ``` js
