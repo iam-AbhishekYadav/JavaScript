@@ -36,6 +36,78 @@
    console.log(val1)                   // Output : 110
 ``` 
 
+# # Loops/Iterators in JavaScript
+
+## 1. For Loop
+
+### Syntax :
+> for ( initialization; condition; increment/decrement )  {      
+> &nbsp; &nbsp; &nbsp; &nbsp;  // Code to execute  
+> }  
+
+### Flow Chart :
+<img width="500" height="500" src="https://github.com/user-attachments/assets/e374bf76-bbb5-4115-8af9-5e132f24f99f" />
+
+### Example :
+``` js
+for (let i = 1; i <= 3; i++) {
+    console.log("Count:", i);               // Output : Count: 1
+                                            //          Count: 2
+                                            //          Count: 3
+}
+```
+
+## 2. While Loop
+
+### Syntax :
+> while (condition) {  
+> &nbsp; &nbsp; &nbsp; &nbsp;  // Code to execute  
+> }
+
+
+### Flow Chart :
+<img width="500" height="500" src="https://github.com/user-attachments/assets/d085ee04-ef8f-4c17-9064-52fbf835d3ca" />
+
+### Example :
+``` js
+let i = 0;
+while (i < 3) {
+    console.log("Count:", i);               // Output : Count: 0
+                                            //          Count: 1
+                                            //          Count: 2
+    i++;
+}
+```
+
+## 3 Do-While Loop
+
+### Syntax :
+> do {  
+> &nbsp; &nbsp; &nbsp; &nbsp;  // Code to execute  
+> } while (condition);
+
+
+### Example :
+``` js
+let i = 0;
+do {
+    console.log("Count:", i);                  // Output : Count: 0
+                                               //          Count: 1
+                                               //          Count: 2
+    i++;
+} while (i < 3);
+```
+
+
+
+
+
+
+
+
+
+
+
 
 
 
