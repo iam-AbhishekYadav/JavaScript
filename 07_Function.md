@@ -1,4 +1,4 @@
-# Function in JS
+# # Function in JS
 
 - Function is a block of code designed to perform a particular task.  
 - Function is executed when "something" invokes it (calls it).
@@ -130,11 +130,11 @@ const addTwo = function(num){
 console.log(addTwo(5))          // Output : 6
 ```
 
-## Arrow Function
+# # Arrow Function
 
 It is more concise and readable way to write function expressions.  
 
-### How to decalre and call Arrow Function ??
+## How to decalre and call Arrow Function ??
 
 ``` js
 let printName = (name) => {
@@ -144,7 +144,7 @@ let printName = (name) => {
 printName("Sachin")
 ```
 
-### Explicit and Implicit Return 
+## Explicit and Implicit Return 
 
 **(a) `Explicit Return`**
 
@@ -181,7 +181,7 @@ let addNumber = aadone(15)
 console.log(addNumber);
 ```
 
-## Immediately Invoked Function Expressions (IIFE)
+# # Immediately Invoked Function Expressions (IIFE)
 
 They are typically used to create a local scope for variables to prevent them from polluting the global scope.  
 
