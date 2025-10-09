@@ -11,7 +11,7 @@ if(true){
    }
    console.log(a)    // a is not defined
    console.log(b)    // b is not defined
-   console.log(c)    // c = 30 (It is bd practice)
+   console.log(c)    // c = 30 (It is bad practice)
 ```
 
 ## Nested Scope
