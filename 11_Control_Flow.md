@@ -79,7 +79,7 @@ while (i < 3) {
 }
 ```
 
-## 3 Do-While Loop
+## 3. Do-While Loop
 
 ### Syntax :
 > do {  
