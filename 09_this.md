@@ -21,6 +21,7 @@ let jsuser ={
         console.log(`${this.userName} just login`);    // Output : Sachin just login
         console.log(this);
     },
+
     this : console.log(this) ,
     
 }
