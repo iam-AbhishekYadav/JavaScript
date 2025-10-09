@@ -139,7 +139,7 @@ console.log(regularUser.fullname.userfullname.firstname);  // Output : Yadav
 
 **(v) `Destructing of Object`**
 
-**(a) `Adding two objects into another object`**
+**(a)** `Adding two objects into another object`
 
 ``` js
 let obj1 = {
@@ -163,7 +163,7 @@ let obj5 =Object.assign ({},obj1,obj2);          // Type - 3
 console.log(obj5);                              // { name: 'Sagar Shah', email: 'mail4sachinyadav@gmail.com' }
 ```
 
-**(b) `How to access object without Dot ??`**
+**(b)** `How to access object without Dot ??`
 
 ``` js
 let obj1 ={
