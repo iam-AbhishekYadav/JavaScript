@@ -101,7 +101,7 @@ console.log(obj.marvelHeroes02);           // Output : [Function (anonymous)]   
 console.log(obj.marvelHeroes02());         // Output : Iron Man -- Call Function by ()
 ```
 
-**(iii) `Accessing Key, Values, Entries, hasOwnProperty`
+**(iii) `Accessing Key, Values, Entries, hasOwnProperty`**
 
 - Key : It give array of all keys.
 - Values : It give array of all Vaues.
