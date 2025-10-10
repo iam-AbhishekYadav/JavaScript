@@ -343,5 +343,56 @@ console.log(newNums2);                                    // Output : [ 5, 6, 7,
 ```
 
 
+## 9. Reduce Loop
+
+- It iterates over an array.
+- Applying a reducer function to each element, accumulating a single output value.
+
+
+### Syntax :
+> variableName.reduce((accumulator, currentValue) => {  
+> &nbsp; &nbsp; &nbsp; &nbsp;  // statement  
+> }, initialValue);  
+
+
+### Example :
+``` js
+
+const myNums = [1, 2, 3]
+
+// 1st Way --> Classic Function
+const myTotal = myNums.reduce(function (acc, currval) {
+    console.log(`acc: ${acc} and currval: ${currval}`);                // Output : acc: 0 and currval: 1
+                                                                       //          acc: 1 and currval: 2
+                                                                       //          acc: 3 and currval: 3
+
+    return acc + currval                                               // Output : 6
+}, 0)
+
+console.log(myTotal);
+
+// 2nd Way --> Arrow Function
+const myTotal2 = myNums.reduce( (acc, curr) => {
+    return acc+curr                                                     // Output : 6
+}, 0);
+
+console.log(myTotal2);
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
