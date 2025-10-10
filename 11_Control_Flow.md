@@ -121,6 +121,11 @@ for (const num of arr) {
 const greetings = "Hello World";
 ```
 
+> [!WARNING]
+> for..of loops is array specific.  
+> Don't use in objects, it wil give error, objects are not iterable.  
+
+
 ## 5. Maps 
 
 - The Map object holds key-value pairs and remembers the original insertion order of the keys.
@@ -183,23 +188,134 @@ for (const [key,value] of sachin) {
 }
 ```
 
+## 6. For..in Loop
+
+### Syntax :
+> for (variable in object) {
+> &nbsp; &nbsp; &nbsp; &nbsp;  // statement
+> }
+
+### Example :
+``` js
+const obj = {
+	js : "JavaScript",
+	py : "Python",
+    cpp : "C++",
+    rb : "Ruby"
+};
+
+// It will gives only Key
+for (const key in obj) {
+	console.log(key);                      // Output : js py cpp rb
+}
+
+// It willgives value of key
+for (const key in obj) {
+	console.log(obj[key]);                  // Output : JavaScript Python C++ Ruby
+}
+```
+
 > [!NOTE]
-> for..of loops is array specific
-> Don't use in objects, it wil give error, objects are not iterable
+> for..in loops is object specific.  
+> It apply on Arrays also but it will give key/Indexes only
+
+``` js
+const obj = ["js", "rb", "py", "java", "cpp",];
+
+// It will give key/Indexes
+for (const key in obj) {
+	console.log(key);                  // Output :  Print 0 to 4
+}
+
+// It Willgives value of key
+for (const key in obj) {
+	console.log(obj[key]);                  // Output : js rb py java cpp
+}
+```
+
+> [!WARNING]
+> Don't use for...in loop in Map(), it will give error.  
+> Maps are not iterable.
 
 
+## 7. For...each Loop
 
+### Syntax :
+> variableName.forEach(callbackFn) {
+> &nbsp; &nbsp; &nbsp; &nbsp;  // statement
+> }
 
+### Example :
+``` js
+const code = ["js", "rb", "py", "java", "cpp",];
 
+// 1st Way
+code.forEach( function (items) {
+    console.log(items);                  // Output : js rb py java cpp
+})
 
+// 2nd Way
+code.forEach((items) => {
+    console.log(items);                  // Output : js rb py java cpp
+})
 
+//3rd Way
+function printMe(items){
+    console.log(items);
+}
 
+code.forEach(printMe);                  // Output : js rb py java cpp
 
+// 4th Way --> It will give Values, Indexes and Array
+code.forEach((items, index, arr) => {
+    console.log(items, index, arr);                   // Output : js 0 [ 'js', 'rb', 'py', 'java', 'cpp' ]
+                                                      //          rb 1 [ 'js', 'rb', 'py', 'java', 'cpp' ]
+                                                      //          py 2 [ 'js', 'rb', 'py', 'java', 'cpp' ]
+                                                      //          java 3 [ 'js', 'rb', 'py', 'java', 'cpp' ]
+                                                      //          cpp 4 [ 'js', 'rb', 'py', 'java', 'cpp' ]
+})
+```
 
+### Object inside Array --> [{ }]
 
+``` js
+const myCoding = [
+    {
+        lanuageName : "JavaScript",
+        FileName : "js"
+    },
 
+    {
+        lanuageName : "C++",
+        FileName : "cpp"
+    },
 
+    {
+        lanuageName : "Python",
+        FileName : "py"
+    },
 
+    {
+        lanuageName : "Ruby",
+        FileName : "rb"
+    },
+];
+
+myCoding.forEach( (items) => {
+    console.log(items.lanuageName); 
+    console.log(items.FileName);
+});
+
+// Output of this Loop --->
+// JavaScript
+// js
+// C++
+// cpp
+// Python
+// py
+// Ruby
+// rb
+```
 
 
 
