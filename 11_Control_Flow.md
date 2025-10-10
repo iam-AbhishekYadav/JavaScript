@@ -105,8 +105,8 @@ do {
 ## 4. For...of Loop
 
 ### Syntax :
-> for (variable of iterable) {
-> &nbsp; &nbsp; &nbsp; &nbsp;  // statement
+> for (variable of iterable) {  
+> &nbsp; &nbsp; &nbsp; &nbsp;  // statement  
 > }
 
 
@@ -191,8 +191,8 @@ for (const [key,value] of sachin) {
 ## 6. For..in Loop
 
 ### Syntax :
-> for (variable in object) {
-> &nbsp; &nbsp; &nbsp; &nbsp;  // statement
+> for (variable in object) {  
+> &nbsp; &nbsp; &nbsp; &nbsp;  // statement  
 > }
 
 ### Example :
@@ -241,8 +241,8 @@ for (const key in obj) {
 ## 7. For...each Loop
 
 ### Syntax :
-> variableName.forEach(callbackFn) {
-> &nbsp; &nbsp; &nbsp; &nbsp;  // statement
+> variableName.forEach(callbackFn) {  
+> &nbsp; &nbsp; &nbsp; &nbsp;  // statement  
 > }
 
 ### Example :
