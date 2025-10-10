@@ -102,6 +102,98 @@ do {
 ```
 
 
+## 4. For...of Loop
+
+### Syntax :
+> for (variable of iterable) {
+> &nbsp; &nbsp; &nbsp; &nbsp;  // statement
+> }
+
+
+### Example :
+``` js
+const arr = [1, 2, 3, 4, 5];
+
+for (const num of arr) {
+    console.log(num);                     // Output : Print 1 to 5
+}
+
+const greetings = "Hello World";
+```
+
+## 5. Maps 
+
+- The Map object holds key-value pairs and remembers the original insertion order of the keys.
+- Any value (both objects and primitive values) may be used as either a key or a value.
+- A key in the Map may only occur once; it is unique in the Map's collection.
+
+### Creating a Map
+
+- Map() constructor allows two ways to create a Map in JavaScript.
+  - Passing an Array to new Map().
+  - Create a Map and use Map.set().
+
+### Example :
+``` js
+// 1st way of Creating a Map
+let abhi = new Map([
+    ['name', 'Abhishek Yadav'],
+    ['age', 22],
+    ['city', 'Delhi']
+    
+]);
+console.log(abhi);                      // Output : Map(3) { 'name' => 'Abhishek Yadav', 'age' => 22, 'city' => 'Delhi' }
+
+// 2nd way of Creating a Map
+const sachin = new Map();
+
+sachin.set('name', 'Abhishek Yadav');
+sachin.set('age', 22);
+sachin.set('city', 'Delhi');
+
+console.log(sachin);                     // Output : Map(3) { 'name' => 'Abhishek Yadav', 'age' => 22, 'city' => 'Delhi' }
+```
+
+### Loop on Map
+
+- A Map object is iterated by key-value pairs — a for...of loop.
+- It returns a 2-member array of [key, value] for each iteration.
+
+``` js
+const sachin = new Map();
+
+sachin.set('name', 'Abhishek Yadav');
+sachin.set('age', 22);
+sachin.set('city', 'Delhi');
+
+// for...of Loop on Map
+
+// 1st --> It gives different-different array 
+for (const key of sachin) {
+    console.log(key);                             // Output : [ 'name', 'Abhishek Yadav' ]
+                                                  //          [ 'age', 22 ]
+                                                  //          [ 'city', 'Delhi' ]
+}
+
+// 2nd --> It gives without array
+for (const [key,value] of sachin) {
+    console.log(key, ':-', value);                  // Output : name :- Abhishek Yadav
+                                                    //          age :- 22
+                                                    //          city :- Delhi
+}
+```
+
+> [!NOTE]
+> for..of loops is array specific
+> Don't use in objects, it wil give error, objects are not iterable
+
+
+
+
+
+
+
+
 
 
 
