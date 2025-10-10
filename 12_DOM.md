@@ -79,43 +79,16 @@ graph TB;
 
 ## 2. Update Element
 
-i. **innerHTML**
+### (i.) innerHTML
 
 -  It returns all text, including html tags, that is contained by an element.
 -  It will show the value and apply any HTML formatting
 
-``` js
-<p id="para">
- Hi my name is Abhishek Yadav.
- <span>I am 21 years old.</span> I like Programming , Chess , Cricket.
-</p>
-
-let para  = documnet.querySelector("#para")
-para.innerHTML = "I am from Delhi"                   // I am from Delhi
-```
-> [!NOTE]
-> **Console**  
-> 'Hi my name is Abhishek Yadav.\n\t\t\t<span>I am 21 years old.</span> I like Programming , Chess , Cricket.\n\t\t'
-
-i. **innerText**
+### (ii.) innerText
 
 - It returns all text contained by an element and all its child elements.
-- It will show the value as is and ignores any HTML formatting which may be included.
+- It will show the value as it is and ignores any HTML formatting which may be included.
 
-``` js
-<p id="para">
- Hi my name is Abhishek Yadav.
- <span>I am 21 years old.</span> I like Programming , Chess , Cricket.
-</p>
+### (iii.) textContent
 
-let para  = documnet.querySelector("#para")
-para.innerTextL = "I am from Delhi"                   // I am from Delhi
-```
-
-> [!NOTE]
-> **Console**
-> 'Hi my name is Abhishek Yadav. I am 21 years old. I like Programming , Chess , Cricket.'
-
-
-
-
+- 
