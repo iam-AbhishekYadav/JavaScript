@@ -347,6 +347,7 @@ console.log(newNums2);                                    // Output : [ 5, 6, 7,
 
 - It iterates over an array.
 - Applying a reducer function to each element, accumulating a single output value.
+- Use in Shopping Cart.
 
 
 ### Syntax :
