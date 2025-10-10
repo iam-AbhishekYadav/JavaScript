@@ -240,6 +240,8 @@ for (const key in obj) {
 
 ## 7. For...each Loop
 
+- It doesn't return any Value
+
 ### Syntax :
 > variableName.forEach(callbackFn) {  
 > &nbsp; &nbsp; &nbsp; &nbsp;  // statement  
@@ -318,10 +320,27 @@ myCoding.forEach( (items) => {
 ```
 
 
+## 8. Filter Loop
 
+### Syntax :
+> variableName.filter(callbackFn) {  
+> &nbsp; &nbsp; &nbsp; &nbsp;  // statement  
+> }
 
+### Example :
+``` js
+const myNums = [1,2,3,4,5,6,7,8,9,10];
 
+// Implicit Return
+const newNums = myNums.filter( (num) => num > 4)
+console.log(newNums);                                     // Output : [ 5, 6, 7, 8, 9, 10 ]
 
+// Explicit Return
+const newNums2 = myNums.filter( (num) => {
+    return num > 4 ;
+})
+console.log(newNums2);                                    // Output : [ 5, 6, 7, 8, 9, 10 ]
+```
 
 
 
