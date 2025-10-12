@@ -137,6 +137,136 @@ document.getElementById("google").addEventListener('click', function (e) {
 
 <img width="800" height="700" alt="Screenshot 2025-10-12 135040-Sachin" src="https://github.com/user-attachments/assets/c3186346-5ec4-408a-9012-0b547c62920d" />
 
+# # Time-Out or Time-IntervalFunctions
+
+## 1. setTimeout() 
+
+- It is used to add delay or scheduling the execution of a specific function after a certain period.
+- It's a key feature of both browser environments and Node.js, enabling asynchronous behavior in code execution.
+- **`Syntax`** : setTimeout(function, delay, arg1, arg2, ...);
+
+### Example-1 :
+
+``` js
+const sayAbhi = function () {
+        console.log("Abhishek Yadav");             // Output : Print "Abhishek Yadav" after 2s delay
+    }
+
+    setTimeout(sayAbhi, 2000);
+```
+
+### Example-2 : 
+
+``` html js
+<body>
+    <h1>Sachin Yadav</h1>
+    <button id="stop">Stop</button>
+</body>
+
+<script>
+    const sayAbhi = function(){
+        console.log("Abhishek");
+    }
+
+    const changeText = function(){
+        document.querySelector('h1').innerHTML = "Abhishek Yadav"                // Output : Change h1 by "Abhishek Yadav" after 2s
+    }
+
+    setTimeout(changeText, 2000);
+
+</script>
+```
+
+## 2. clearTimeout()
+
+- It is used to cancel a scheduled timeout before it gets executed.
+
+### Example-1 :
+
+Onclicking button "Stop" setTimeout() is canceled
+
+``` js
+<body>
+    <h1>Sachin Yadav</h1>
+    <button id="stop">Stop</button>
+</body>
+
+<script>
+    const sayAbhi = function(){
+        console.log("Abhishek");
+    }
+
+    const changeText = function(){
+        document.querySelector('h1').innerHTML = "Abhishek Yadav"
+    }
+
+    const changeMe = setTimeout(changeText, 2000)
+
+    document.querySelector('#stop').addEventListener('click', function(){
+        clearTimeout(changeMe)
+        console.log("STOPPED")
+    });
+
+</script>
+```
+
+## 3. setInterval() 
+
+- It is for executing a function repeatedly at specified intervals until explicitly cleared.
+- This method is useful for tasks that need periodic execution, like updating animations or refreshing data.
+- **`Syntax`** : setInterval(function, delay);
+
+
+### Example :
+
+Print Sachin" in console in every 1s.
+
+``` js
+<body>
+    <h1>Sachin Yadav</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+</body>
+
+<script>
+    const sayDate = function(str){
+        console.log(str, Date.now());
+    }
+
+    const intervalId = setInterval(sayDate, 1000, "Sachin");
+    
+</script>
+```
+
+## 4. clearInterval()
+
+- To stop the execution of the setInterval().
+
+### Example :
+``` js
+<body>
+    <h1>Sachin Yadav</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+</body>
+
+<script>
+    const sayDate = function(str){
+        console.log(str, Date.now());
+    }
+
+    const intervalId = setInterval(sayDate, 1000, "hi");
+
+    clearInterval(intervalId);
+
+</script>
+```
+
+
+
+
+
+
 
 
 
