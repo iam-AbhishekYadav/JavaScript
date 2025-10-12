@@ -130,6 +130,30 @@ const addTwo = function(num){
 console.log(addTwo(5))          // Output : 6
 ```
 
+## map() Function
+
+- It creates a new array by applying a function to each element of the original array.
+- It skips empty elements and does not modify the original array.
+
+#### Example :
+
+``` js
+// Example-1
+const a = [1, 4, 9, 16, 25];
+const sr = a.map(num => Math.sqrt(num)); 
+
+console.log(sr);                                         // Output : [ 2, 4, 6, 8 ]
+
+// Example-2
+const a = [1, 4, 9, 16, 25];
+
+const sr = a.map(num => {
+    return Math.sqrt(num)
+}); 
+
+console.log(sr);                                         // Output : [ 1, 2, 3, 4, 5 ]
+```
+
 # # Arrow Function
 
 It is more concise and readable way to write function expressions.  
