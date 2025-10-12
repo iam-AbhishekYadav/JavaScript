@@ -128,13 +128,14 @@ document.getElementById("google").addEventListener('click', function (e) {
 ```
 
 
+# # JS Async 
 
 
+<img width="800" height="600" alt="Screenshot 2025-10-12 134038" src="https://github.com/user-attachments/assets/f5c8e43b-2fd1-48a4-8005-c25c9104cd67" />
 
+<img width="800" height="400" alt="Screenshot 2025-10-12 134838" src="https://github.com/user-attachments/assets/9206fb3a-6750-4e58-b6ae-62cc4994a2e0" />
 
-
-
-
+<img width="800" height="700" alt="Screenshot 2025-10-12 135040-Sachin" src="https://github.com/user-attachments/assets/c3186346-5ec4-408a-9012-0b547c62920d" />
 
 
 
